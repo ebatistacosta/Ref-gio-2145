@@ -1,250 +1,53 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="pt">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Guia de Sobrevivência: Táticas Essenciais</title>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<style>
-body {
-  background-color: #1a1a1a;
-  color: #e6c300;
-  font-family: 'Courier New', monospace;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-/* HEADER */
-header {
-  position: relative;
-  z-index: 10;
-  background: linear-gradient(135deg, #FFD700 0%, #b38600 70%);
-  padding: 40px 20px;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  font-size: 2.5em;
-  color: #222;
-  font-weight: 900;
-  text-shadow: 0 0 8px #fff8a6, 0 0 15px #b38600;
-  box-shadow: inset 0 0 15px #fff8a6, 0 0 20px #b38600;
-}
-
-header::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: repeating-linear-gradient(
-    45deg,
-    rgba(255, 255, 0, 0.2),
-    rgba(255, 255, 0, 0.2) 5px,
-    rgba(0, 0, 0, 0.1) 10px
-  );
-  pointer-events: none;
-  z-index: 0;
-}
-
-header > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* BOXES */
-.section-box {
-  margin: 60px auto;
-  max-width: 900px;
-  padding: 30px;
-  background-color: #222;
-  border: 15px solid;
-  border-image: repeating-linear-gradient(
-    45deg,
-    #000 0,
-    #000 15px,
-    #FFD700 15px,
-    #FFD700 30px
-  ) 15;
-  box-sizing: border-box;
-  text-align: left;
-}
-
-/* TITULOS */
-.section-title {
-  cursor: pointer;
-  background-color: rgba(255, 255, 0, 0.1);
-  padding: 10px 15px;
-  border-left: 5px solid #FFD700;
-  margin-top: 15px;
-  font-size: 1.2em;
-}
-
-.section-title span {
-  float: right;
-  font-size: 0.9em;
-  color: #fff;
-}
-
-.content {
-  padding: 10px 15px;
-  display: none;
-}
-
-.step-item { margin: 5px 0; }
-h5 { margin-top: 10px; }
-
-.alerta {
-  background-color: rgba(255, 255, 0, 0.12);
-  border: 2px solid #e6c300;
-  display: inline-block;
-  padding: 15px 20px;
-  color: #fff;
-  font-size: 1em;
-  text-shadow: 0 0 5px #e6c300;
-  margin: 20px 0;
-}
-
-/* FOOTER */
-footer {
-  margin-top: 40px;
-  color: #888;
-  font-size: 0.9em;
-}
-
-/* --- CARROSSEL DISCRETO --- */
-.carousel {
-  width: 350px; /* tamanho reduzido */
-  margin: 40px auto; /* centraliza */
-  border: 3px solid rgba(255, 215, 0, 0.4);
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
-  opacity: 0.85;
-  transition: all 0.3s ease;
-}
-
-.carousel:hover {
-  opacity: 1;
-  transform: scale(1.02);
-}
-
-.carousel img {
-  height: 220px; /* altura menor */
-  object-fit: cover;
-  filter: brightness(85%);
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refúgio-2145 | Táticas</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
 
-<header>
-  <h1>Guia de Sobrevivência: Táticas Essenciais</h1>
-  <h2>Manual Apocalíptico</h2>
-</header>
-
-<main>
-  
-  <div class="section-box">
-    <h3 class="section-title" id="abrigos">1. Abrigos & Tipos de Abrigo <span>Clique para expandir</span></h3>
-    <div class="content" id="content-abrigos">
-      <p><em>Objetivo: Proteger-se dos elementos, predadores e reduzir perda de energia.</em></p>
-      <h5>Tipos:</h5>
-      <ul>
-        <li><strong>Natural:</strong> cavernas, árvores caídas, folhagens densas.</li>
-        <li><strong>Improvisado:</strong> lonas, galhos entrelaçados, túneis de neve.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section-box">
-    <h3 class="section-title" id="alimentacao">2. Alimentação <span>Clique para expandir</span></h3>
-    <div class="content" id="content-alimentacao">
-      <p><em>Objetivo: Garantir energia suficiente sem risco de contaminação.</em></p>
-      <h5>Passo a Passo:</h5>
-      <ul>
-        <li><strong>Fontes de comida:</strong> Frutas, raízes e plantas comestíveis (identifique corretamente).</li>
-        <li>Caça de pequenos animais ou pesca (se tiver habilidade e equipamento).</li>
-        <li>Evite cogumelos e plantas desconhecidas.</li>
-        <li><strong>Preparação:</strong> Lave e cozinhe sempre que possível.</li>
-        <li>Use fogo ou métodos de secagem para conservar alimentos.</li>
-        <li><strong>Racionamento:</strong> Estime porções diárias de acordo com suas reservas e atividade física.</li>
-        <li>Priorize hidratação mesmo quando comida estiver escassa.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section-box">
-    <h3 class="section-title" id="socorro">3. Sinais de Socorro & Primeiros Socorros <span>Clique para expandir</span></h3>
-    <div class="content" id="content-socorro">
-      <h5>Sinais de Socorro:</h5>
-      <ul>
-        <li>Visuais: símbolos grandes no chão, roupas ou panos coloridos.</li>
-        <li>Auditivos: apitos, sons repetitivos padrão 3–3–3.</li>
-        <li>Fogo e Luz: fogueiras visíveis, lanternas ou espelhos refletivos.</li>
-        <li>Precauções: evite sinais confusos, mantenha local seguro para retorno.</li>
-      </ul>
-      <h5>Primeiros Socorros:</h5>
-      <ul>
-        <li>Avaliação inicial: respiração, pulso, identificar ferimentos graves.</li>
-        <li>Tratamento básico: hemorragias, queimaduras, fraturas, picadas/mordidas.</li>
-        <li>Higiene e prevenção: limpar ferimentos, mãos limpas, hidratação.</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- CARROSSEL PEQUENO E DISCRETO -->
-  <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../assets/img/abrigo.png" class="d-block w-100" alt="Abrigo">
+  <!-- HEADER -->
+  <header class="apocalypse-header">
+    <div class="hazard-strip"></div>
+    <div class="container">
+      <div class="logo-area">
+        <span class="hazard-icon">☢️</span>
+        <span class="logo-text">Refúgio-2145</span>
       </div>
-      <div class="carousel-item">
-        <img src="../assets/img/comida.jpg" class="d-block w-100" alt="Comida">
-      </div>
-      <div class="carousel-item">
-        <img src="../assets/img/socorro.jpg" class="d-block w-100" alt="Socorro">
-      </div>
+      <ul class="apocalypse-menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="criaturas.html">Criaturas</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="relatar.html">Relatar</a></li>
+        <li><a href="taticas.html">Táticas</a></li>
+      </ul>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Próximso</span>
-    </button>
-  </div>
+  </header>
 
-<footer>
-  © 2025 - Apocalipse Nuclear | Todos os direitos reservados
-</footer>
+  <!-- CONTEÚDO -->
+  <main class="container">
+    <h2>Táticas de Sobrevivência</h2>
+    <p>Estratégias para sobreviver no mundo pós-apocalíptico:</p>
+    <ul>
+      <li>Evitar áreas contaminadas</li>
+      <li>Formar grupos de defesa</li>
+      <li>Monitorar criaturas e recursos</li>
+      <li>Improvisar armas e abrigos</li>
+    </ul>
+  </main>
 
-<script>
-  document.querySelectorAll('.section-title').forEach(section => {
-    section.addEventListener('click', () => {
-      const contentId = 'content-' + section.id;
-      const content = document.getElementById(contentId);
-      if (content.style.display === 'block') {
-        content.style.display = 'none';
-        section.querySelector('span').textContent = 'Clique para expandir';
-      } else {
-        content.style.display = 'block';
-        section.querySelector('span').textContent = 'Clique para recolher';
-      }
-    });
-  });
-</script>
+  <!-- FOOTER -->
+  <footer class="apocalypse-footer">
+    <div class="hazard-strip-footer"></div>
+    <div class="footer-content">
+      <span class="footer-icon">☢️</span>
+      <p>© 2145 Refúgio. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-

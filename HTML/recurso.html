@@ -1,106 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recursos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refúgio-2145 | Recursos</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">Refugio-2145</div>
-        <navbar>
-            <ul class="menu">
-                <li><a href="index.html">Portal</a></li>
-                <li><a href="criaturas.html">Criaturas</a></li>
-                <li><a href="tacticas.html">Tacticas</a></li>
-                <li><a href="recursos.html">Recursos</a></li>
-            </ul>
-        </navbar>
-    </header>
 
-
-    <section class="mt-5 mb-5">
-        <h2 class="text-center mb-4 text-primary">Postos Seguros.</h2>
-        <div class="table-responsive">
-            <table class="table table-striped table-bordered align-middle">
-                <thead class="table-dark">
-                    <tr>
-                        <th scope="col">Nome:</th>
-                        <th scope="col">Descricação:</th>
-                        <th scope="col">Coordenadas:</th>
-                        <th scope="col">Nivel de Segurança:</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row"> Fortaleza São Bento.</th>
-                        <td>Antigo quartel transformado em bastião principal. Possui energia, arsenal leve e muralhas reforçadas.</td>
-                        <td class="text-info">Lat -23.5512, Lon -46.6340</td>
-                        <td class="text-info">Alto</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Refúgio das Ruínas </th>
-                        <td>Biblioteca antiga adaptada. Boa cobertura e estoque de mantimentos, mas poucos defensores.</td>
-                        <td class="text-info">Lat -23.5470, Lon -46.6405</td>
-                        <td class="text-info">Médio</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"> Hospital Central (setor B)</th>
-                        <td>Área funcional parcialmente segura, com medicamentos e abrigos subterrâneos. Risco moderado em incursões.</td>
-                        <td class="text-info">Lat -23.5535, Lon -46.6202</td>
-                        <td class="text-info">Médio</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"></th>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Estação do Farol</th>
-                        <td>Torre alta equipada com holofotes e sinalizadores. Serve como ponto de comunicação e vigilância noturna.</td>
-                        <td class="text-info">Lat -23.5465, Lon -46.6180</td>
-                        <td class="text-info">Alto</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"> Abrigo do Mercado</th>
-                        <td>Refúgio comunitário improvisado; pouca segurança, mas fácil acesso para sobreviventes civis.</td>
-                        <td class="text-info"> Lat -23.5595, Lon -46.6367</td>
-                        <td class="text-info">Baixo</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h1>Badges visuais por nível de segurança</h1>
-
-            <button type="button" class="btn btn-success">Alto</button>
-            <button type="button" class="btn btn-danger">Medio</button>
-            <button type="button" class="btn btn-warning">Baixo</button>
-            
-        
-
-    <p>Mapa:</p> 
-
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/img/mapa.png" class="d-block w-100" alt="...">
-          </div>
-         
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <!-- HEADER -->
+  <header class="apocalypse-header">
+    <div class="hazard-strip"></div>
+    <div class="container">
+      <div class="logo-area">
+        <span class="hazard-icon">☢️</span>
+        <span class="logo-text">Refúgio-2145</span>
       </div>
-        </div>
-    </section>
+      <ul class="apocalypse-menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="criaturas.html">Criaturas</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="relatar.html">Relatar</a></li>
+        <li><a href="taticas.html">Táticas</a></li>
+      </ul>
+    </div>
+  </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ 
+  <main class="container">
+    <h2>Recursos Disponíveis</h2>
+    <p>Para sobreviver, é essencial gerenciar recursos limitados. Aqui estão alguns exemplos:</p>
+    <ul>
+      <li>Água potável</li>
+      <li>Alimentos enlatados</li>
+      <li>Armas improvisadas</li>
+      <li>Combustível</li>
+    </ul>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="apocalypse-footer">
+    <div class="hazard-strip-footer"></div>
+    <div class="footer-content">
+      <span class="footer-icon">☢️</span>
+      <p>© 2145 Refúgio. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

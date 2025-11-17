@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refúgio-2145 | Relatar</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">Refugio-2145</div>
-        <navbar>
-            <ul class="menu">
-                <li><a href="index.html">Portal</a></li>
-                <li><a href="criaturas.html">Criaturas</a></li>
-                <li><a href="tacticas.html">Tacticas</a></li>
-                <li><a href="recursos.html">Recursos</a></li>
-            </ul>
-        </navbar>
-    </header>
 
+  <!-- HEADER -->
+  <header class="apocalypse-header">
+    <div class="hazard-strip"></div>
+    <div class="container">
+      <div class="logo-area">
+        <span class="hazard-icon">☢️</span>
+        <span class="logo-text">Refúgio-2145</span>
+      </div>
+      <ul class="apocalypse-menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="criaturas.html">Criaturas</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="relatar.html">Relatar</a></li>
+        <li><a href="taticas.html">Táticas</a></li>
+      </ul>
+    </div>
+  </header>
 
-    <h1>Formulário de Avistamento – Divisão de Contenção de Anomalias</h1>
-    <div class="alert alert-success" role="alert">
-      <h4 class="alert-heading">Atenção, sobrevivente.</h4>
-      <p> Este formulário deve ser preenchido somente após garantir sua segurança e isolar a área do avistamento.</p>
-      <hr>
-      <p class="mb-0">Se houver risco de contaminação ou presença de matéria distorcida, abandone o local imediatamente.
-        As informações registradas aqui serão analisadas pelos Observadores da Ordo Reclamata — última linha de defesa contra “A Falha”.
+  <!-- CONTEÚDO -->
+  <main class="container">
+    <h2>Relatar Encontros</h2>
+    <p>Se você encontrou criaturas ou recursos perigosos, registre aqui:</p>
+    <form>
+      <label>Seu nome:</label>
+      <input type="text" placeholder="Nome">
+      <label>Descrição do encontro:</label>
+      <textarea rows="5" placeholder="Detalhes do encontro..."></textarea>
+      <button type="submit">Enviar Relato</button>
+    </form>
+  </main>
 
+  <!-- FOOTER -->
+  <footer class="apocalypse-footer">
+    <div class="hazard-strip-footer"></div>
+    <div class="footer-content">
+      <span class="footer-icon">☢️</span>
+      <p>© 2145 Refúgio. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
-
-        
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
